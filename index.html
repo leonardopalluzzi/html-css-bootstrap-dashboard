@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#"><img class="img-fluid" src="./img/duck.png" alt="logo" width="40"
                         height="40"></a>
@@ -52,23 +52,23 @@
         <div class="container mw-80">
                     <div class="row pt-5">
             <section class="col-lg-8 catalog">
-                <div class="container d-flex justify-content-between">
+                <div class="container d-flex justify-content-between mb-4">
                     <h2>Catalogo Libri</h2>
                     <button class="btn btn-primary">Aggiungi Libro</button>
                 </div>
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th class="col-6" scope="col">Titolo</th>
+                            <th class="d-none d-md-table-cell col-md-2" scope="col">Data Prestito</th>
+                            <th scope="col-3 col-md-2">Stato</th>
+                            <th scope="col-3 col-md-2">Azioni</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
+                            <th scope="row">I pilastri della terra</th>
+                            <td class="d-none d-md-table-cell">-</td>
                             <td>Otto</td>
                             <td>@mdo</td>
                         </tr>
