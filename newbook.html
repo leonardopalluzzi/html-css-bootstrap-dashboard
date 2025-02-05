@@ -14,8 +14,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container mw-100">
-                <a class="navbar-brand" href="#"><img class="img-fluid" src="./img/duck.png" alt="logo" width="40"
-                        height="40"></a>
+                <a class="navbar-brand" href="./index.html"><img class="img-fluid" src="./img/duck.png" alt="logo"
+                        width="40" height="40"></a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -50,6 +50,109 @@
 
     </header>
     <!-- ./header  -->
+    <main>
+        <div class="container">
+            <form action="" method="get">
+                <h2>Nuovo Libro</h2>
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="author-name" class="form-label">Nome Autore</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="author-name"
+                                id="author-name"
+                                aria-describedby="helpId"
+                                placeholder="Inserisci il nome dell'autore"
+                                required
+                            />
+                        </div>
+                        
+                    </div>
+
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="author-lastname" class="form-label">Cognome Autore</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="author-lastname"
+                                id="author-lastname"
+                                aria-describedby="helpId"
+                                placeholder="Inserisci il cognome dell'autore"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="title" class="form-label">Titolo</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="title"
+                                id="title"
+                                aria-describedby="helpId"
+                                placeholder="Inserisci il titolo del libro"
+                                required
+                            />
+                            <small id="helpId" class="form-text text-muted">Titolo versione italiana</small>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-md-cols-3">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="genre" class="form-label">Genere</label>
+                            <select
+                                class="form-select form-select-lg"
+                                name="genre"
+                                id="genre"
+                            >
+                                <option selected>Scegli il genere</option>
+                                <option value="">Fantasy</option>
+                                <option value="">Drammatico</option>
+                                <option value="">Commedia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="year" class="form-label">Anno di Pubblicazione</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="year"
+                                id="year"
+                                aria-describedby="helpId"
+                                placeholder="Inserisci l'anno"
+                            />
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="isbn" class="form-label">ISBN#</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="isbn"
+                                id="isbn"
+                                aria-describedby="helpId"
+                                placeholder="Inserisci il codice ISBN#" 
+                                required
+                            />
+                        </div>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </main>
 
 </body>
 
